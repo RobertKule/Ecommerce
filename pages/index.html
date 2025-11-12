@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECommerce Shop Cart</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/output.css">
 </head>
 <body>
-    <div class="topbar">
+    <div class="bg-[#083d28] flex justify-between text-white p-2 text-sm">
             <span>+243973822439</span>
             <span>Get 50% off on selected items | shop now</span>
             <span class="location">
@@ -15,14 +15,40 @@
                 <span>Location</span>
             </span>
         </div>
-    <header>
-        
+    <header class="flex justify-between p-2 m-auto text-[#083d28] items-center ">
+        <h1 class="font-bold text-2xl">
+            ShopCart
+        </h1>
         <nav>
-
+            <ul class="list-none flex gap-6">
+                <li>Category</li>
+                <li>Deals</li>
+                <li>What's new</li>
+                <li>Delivery</li>
+            </ul>
         </nav>
+        <div class="flex items-center justify-around gap-4">
+            <input type="search" name="" id="" class="w-auto shadow-md rounded-full p-2 border-gray-400" value="search">
+            <button class="text-[#083d28] ">
+                Account
+            </button>
+            <button class="border-2 border-[#083d28] rounded-full p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </button>
+        </div>
     </header>
     <main>
-
+        <section class="hero bg-[#fcf0e4] h-96 p-8 flex flex-row justify-between items-center gap-4 mx-8 my-4 rounded shadow-md">
+            <div class="w-1/2">
+                <h2 class="text-6xl font-bold">
+                Grab up to 50% off on selected headphone
+                 </h2>
+                <button class="bg-[#083d28] text-white p-4 min-w-md rounded-full mt-4">Buy Now</button>
+            </div>
+            <img src="../images/img/hero.png" class="h-64 m-2 p-2" alt="" srcset="">
+        </section>
     </main>
     <footer>
 
