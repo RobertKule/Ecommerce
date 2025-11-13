@@ -7,8 +7,8 @@ Ce projet met en avant un design moderne et responsive pour une boutique de casq
 
 ## 🚀 Démo
 
-👉 [Lien vers la démo en ligne](#)   
-
+[Restez informé ](https://www.youtube.com/@kulelab)   
+[Voir le site](https://shopcarthtml.netlify.app/pages/) 
 
 ---
 
